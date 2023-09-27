@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>교보문고 | 대한민국 최고의 도서쇼핑몰</title>
+    
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper welcome">
+        <header class="header_wrapper">
+            <div class="top_banner_wrap">
+                <div class="top_banner_inner">
+                    <a href="#"><img src="img/img_top_banner2.png" alt="2023년 2학기 대학교재전"></a>
+                    <button type="button" class="btn_close_button"></button>
+                </div>
+            </div>
+            <div class="service_mall_wrap">
+                <div class="service_mall_inner">
+                    <div class="service_mall_box">
+                        <ul class="service_mall_list">
+                            <li class="service_mall_item ebook"><a href="#">eBook</a></li>
+                            <li class="service_mall_item sam"><a href="#">sam</a></li>
+                            <li class="service_mall_item hottracks"><a href="#">핫트랙스</a></li>
+                            <li class="service_mall_item location"><a href="#">매장안내</a></li>
+                            <li class="service_mall_item talk"><a href="#">톡소다</a></li>
+                            <li class="service_mall_item story" ><a href="#" style="color:#595959;">스토리</a></li>
+                            <li class="service_mall_item more_brand"><a href="#" style="color:#595959;">브랜드 더보기</a></li>
+                        </ul>
+                    </div>
+                    <div class="customer_service_box">
+                        <ul class="customer_service_list">
+                            <li class="customer_service_item">
+                                <a href="#">회원가입</a>
+                            </li>
+                            <li class="customer_service_item">
+                                <a href="#">로그인</a>
+                            </li>
+                            <li class="customer_service_item">
+                                <a href="#"><span>회원혜택</span></a>
+                            </li>
+                            <li class="customer_service_item">
+                                <a href="#">고객센터</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header_inner">
+                <div class="gnb_search_wrap">
+                    <div class="logo_box">
+                        <a href="#"></a>
+                    </div>
+                    <div class="gnb_search_box">
+                        <div class="form_sel">
+                            <select title="검색유형선택" id="gbCode">
+                                <option value="TOT">통합검색</option>
+                                <option value="KBO">교보문고</option>
+                                <option value="EBK">eBook</option>
+                                <option value="SAM">sam</option>
+                                <option value="HTS">핫트랙스</option>
+                            </select>
+                            <span class="ui_selectmenu_button">
+                                <span class="ui_selectmenu_icon"></span>
+                                <span class="ui_selectmenu_text">통합검색</span>
+                            </span>
+                        </div>
+                        <div class="search_input_wrap">
+                            <input id="searchKeyword" type="search" class="ip_gnb_search" autocomplete="off" title="통합검색 입력" value placeholder="송영길이 예측하는 더 큰 미래, 핵개인의 시대">
+                        </div>
+                        <div class="search_icon_wrap"></div>
+                    </div>
+                    <ul class="user_menu_list">
+                        <li class="user_menu_item cart">
+                            <a href="#" class="user_menu_link"></a>
+                        </li>
+                        <li class="user_menu_item my">
+                            <a href="#" class="user_menu_link"></a>
+                        </li>
+                    </ul>
+                </div>
+                <nav class="gnb_wrap">
+                    <div class="anb_wrap">
+                        <button type="button" class="btn_anb"></button>
+                    </div>
+                    <ul class="gnb_list">
+                        <li class="gnb_item">
+                            <a href="#" class="gnb_link">
+                                <span class="gnb_text green" style="padding: 5px 12px 5px 0px;">가을시선</span>
+                                <span class="icon_new"></span>
+                            </a>
+                        </li>
+                        <li class="gnb_item">
+                            <a href="#" class="gnb_link">
+                                <span class="gnb_text green">추석선물관</span>
+                                <span class="icon_new"></span>
+                            </a>
+                        </li>
+                        <li class="gnb_item">
+                            <a href="#" class="gnb_link">
+                                <span class="gnb_text">베스트</span>
+                            </a>
+                        </li>
+                        <li class="gnb_item">
+                            <a href="#" class="gnb_link">
+                                <span class="gnb_text">신상품</span>
+                            </a>
+                        </li>
+                        <li class="gnb_item">
+                            <a href="#" class="gnb_link">
+                                <span class="gnb_text">이벤트</span>
+                            </a>
+                        </li>
+                        <li class="gnb_item">
+                            <a href="#" class="gnb_link">
+                                <span class="gnb_text">사은품</span>
+                            </a>
+                        </li>
+                        <li class="gnb_item">
+                            <a href="#" class="gnb_link">
+                                <span class="gnb_text">PICK</span>
+                            </a>
+                        </li>
+                        <li class="gnb_item">
+                            <a href="#" class="gnb_link">
+                                <span class="gnb_text">CASTing</span>
+                            </a>
+                        </li>
+                        <li class="gnb_item">
+                            <a href="#" class="gnb_link">
+                                <span class="gnb_text" style="padding:5px 0 5px 12px;">교보ONLY</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="gnb_sub_list">
+                        <li class="gnb_sub_item">
+                            <a href="#" class="gnb_sub_link">할인혜택</a>
+                        </li>
+                        <li class="gnb_sub_item">
+                            <a href="#" class="gnb_sub_link">출석체크</a>
+                        </li>
+                        <li class="gnb_sub_item more_service">
+                            <button type="button" class="btn_more_service"></button>
+                        </li>
+                    </ul>
+                    <div class="curtain_banner_wrap"></div>
+                </nav>
+            </div>
+        </header>
+        <main class="container_wrapper" id="welcome_wrapper">
+            <section id="contents" class="contents_wrap">
+                <div class="welcome_wrap">
+                    <div class="welcome_banner_wrap" id="welcome_main_banner">
+                        <div class="welcome_banner_inner">
+                            <div class="swiper-container">
+                                <ul class="swiper_wrapper">
+                                    <li class="swiper_slider">
+                                        <a href="#">
+                                            <p class="banner_title">
+                                                하루키, 머스크, 오펜하이머
+                                                <br>
+                                                올가을 주목할 이름 BIG 3
+                                            </p>
+                                            <div class="banner_visual_box">
+                                                <div class="img_box">
+                                                    <img src="img/fall_big3.jpg" alt="하루키, 머스크, 오펜하이머
+                                                    올가을 주목할 이름 BIG 3">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="banner_floating_box">
+                                <div class="banner_control_box">
+                                    <div class="swiper-pagination">
+                                        <span class="swiper-pagination-current">01</span>
+                                        <span class="swiper-pagination-total">37</span>
+                                    </div>
+                                    <button type="button" class="btn_swiper_pause"></button>
+                                </div>
+                                <div class="banner_content_box">
+                                    <a href="#">
+                                        <img src="img/banner_content1.jpg" alt="랜선팬싸">
+                                        <div class="content_info_box">
+                                            <p class="content_type">랜선팬싸</p>
+                                            <p class="content_title">'소란' 고영배, 행복이 어떤 건지 가끔 생각해</p>
+                                            <p class="content_desc">by 교보문고</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="welcome_banner_control">
+                            <div class="banner_control_inner">
+                                <ul class="banner_group_list">
+                                    <li class="banner_group_item">
+                                        <button type="button" class="btn_banner_group active">핫 이슈</button>
+                                    </li>
+                                    <li class="banner_group_item">
+                                        <button type="button" class="btn_banner_group">요즘 이 책</button>
+                                    </li>
+                                    <li class="banner_group_item">
+                                        <button type="button" class="btn_banner_group">새로나온 책</button>
+                                    </li>
+                                    <li class="banner_group_item">
+                                        <button type="button" class="btn_banner_group">기획전</button>
+                                    </li>
+                                    <li class="banner_group_item">
+                                        <button type="button" class="btn_banner_group">eBook</button>
+                                    </li>
+                                    <li class="banner_group_item">
+                                        <button type="button" class="btn_banner_group">sam</button>
+                                    </li>
+                                    <li class="banner_group_item">
+                                        <button type="button" class="btn_banner_group">핫트랙스</button>
+                                    </li>
+                                    <li class="banner_group_item">
+                                        <button type="button" class="btn_banner_group">톡소다</button>
+                                    </li>
+                                </ul>
+                                <span class="divider"></span>
+                                <div class="banner_btn_box">
+                                    <button type="button" class="swiper-button-prev"></button>
+                                    <button type="button" class="swiper-button-next"></button>
+                                    <button type="button" class="btn_show_all_banner"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contents_inner">
+                        <div class="welcome_marketing_wrap">
+                            <ul class="welcome_marketing_list">
+                                <li class="item item1"><a href="#">할인혜택</a></li>
+                                <li class="item item2"><a href="#">핫딜</a></li>
+                                <li class="item item3"><a href="#">Picks</a></li>
+                                <li class="item item4"><a href="#">교보ONLY</a></li>
+                                <li class="item item5"><a href="#">이달의 책</a></li>
+                                <li class="item item6"><a href="#">책 그리고 꽃</a></li>
+                                <li class="item item7"><a href="#">선물하기</a></li>
+                                <li class="item item8"><a href="#">추천</a></li>
+                                <li class="item item9"><a href="#">인물&작품</a></li>
+                                <li class="item item10"><a href="#">손글쓰기캠페인</a></li>
+                                <li class="item item11"><a href="#">명강의Big10</a></li>
+                                <li class="item item12"><a href="#">기프트카드</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="welcome_main_content_area" id="welcome_today_book">
+                        <div class="contents_inner">
+                            <div class="title_wrap title_size_xxl">
+                                <h2 class="title_heading">오늘의 선택</h2>
+                                <ul class="category_tag_list">
+                                    <li class="category_tag_item category_active"><button type="button" class="btn_categoty"><span class="text">전체</span></button></li>
+                                    <li class="category_tag_item"><button type="button" class="btn_categoty"><span class="text">국내도서</span></button></li>
+                                    <li class="category_tag_item"><button type="button" class="btn_categoty"><span class="text">외국도서</span></button></li>
+                                    <li class="category_tag_item"><button type="button" class="btn_categoty"><span class="text">eBook</span></button></li>
+                                    <li class="category_tag_item"><button type="button" class="btn_categoty"><span class="text">sam</span></button></li>
+                                    <li class="category_tag_item"><button type="button" class="btn_categoty"><span class="text">핫트랙스</span></button></li>
+                                    <li class="category_tag_item"><button type="button" class="btn_categoty"><span class="text">교보ONLY</span></button></li>
+                                </ul>
+                                <div class="right_area">
+                                    <a href="#" class="btn_more_plus_text">
+                                        <span class="text">더보기</span>
+                                        <span class="ico_plus"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="showcase_template_wrap">
+                                <div class="template_row">
+                                    <div class="template_col">
+                                        <div class="expand_related_book_wrap" id="todayAll">
+                                            <div class="detail_swiper_wrap">
+                                                <div class="swiper-container">
+                                                    <ul class="swiper-wrapper">
+                                                        <li class="swiper-slider">
+                                                            <div class="prod_area">
+                                                                <div class="prod_thumb_box">
+                                                                    <a href="#" class="prod_link">
+                                                                        <span class="img_box">
+                                                                            <img src="img/for_traveler.jpg" alt="여행가를 위한 교토답사기">
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="prod_info_box">
+                                                                    <a href="#" class="prod_info">
+                                                                        <h3 class="prod_name">[역사/문화] 여행자를 위한 교토 답사기</h3>
+                                                                    </a>
+                                                                    <span class="prod_author">유홍준 ·창비</span>
+                                                                    <div class="prod_price">
+                                                                        <span class="percent">10%</span>
+                                                                        <span class="price">
+                                                                            <span class="val">19,800</span>
+                                                                            <span class="unit">원</span>
+                                                                        </span>
+                                                                    </div>
+                                                                    <div class="prod_md_comment">유홍준이 안내하는 교토 에센셜</div>
+                                                                    <div class="prod_md_comment_desc">“역사는 유물을 낳고 유물은 역사를 증언한다”라는 유홍준 작가의 말처럼 그들의 내력을 들여다보며 우리의 사연까지, 일본미의 정수와 해답을 찾는 여정을 떠나보자.</div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="trumb_swiper_wrap">
+                                                <div class="swiper-container">
+                                                    <ul class="thumb_list">
+                                                        <li class="thumb_item">
+                                                            <div class="thumb_img_box">
+                                                                <a href="#"><img src="img/generation.jpg" alt="시대예보: 핵개인의 시대"></a>
+                                                            </div>
+                                                            <div class="prod_area">
+                                                                <div class="prod_info_box">
+                                                                    <a href="#" class="prod_info">
+                                                                        <span class="prod_name">시대예보: 핵개인의 시대</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="thumb_item">
+                                                            <div class="thumb_img_box">
+                                                                <a href="#"><img src="img/pubao.jpg" alt="푸바오, 매일매일 행복해"></a>
+                                                            </div>
+                                                            <div class="prod_area">
+                                                                <div class="prod_info_box">
+                                                                    <a href="#" class="prod_info">
+                                                                        <span class="prod_name">푸바오, 매일매일 행복해</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="thumb_item">
+                                                            <div class="thumb_img_box">
+                                                                <a href="#"><img src="img/eyerash.jpg" alt="속눈썹,혹은 잃어버린 잠을 찾는 방법"></a>
+                                                            </div>
+                                                            <div class="prod_area">
+                                                                <div class="prod_info_box">
+                                                                    <a href="#" class="prod_info">
+                                                                        <span class="prod_name">속눈썹,혹은 잃어버린 잠을 찾는 방법</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <button type="button" class="swiper-button-prev type_white"></button>
+                                            <button type="button" class="swiper-button-next type_white"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="welcome_main_content_area">
+                        <div class="contents_inner">
+                            <div class="showcase_blurb_wrap">
+                                <div class="showcase_blurb_box">
+                                    <a href="#"><img src="img/0925_welcomemain_2.jpg" alt="지금 살펴본 도서의 문장을 리드로그에서 확인해 보세요!"></a>
+                                </div>
+                                <div class="showcase_blurb_box" style="margin-left: 4px;">
+                                    <a href="#"><img src="img/06_wml_595x180.jpg" alt="창작자의 필독서! 영감과 창조성의 법칙들"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="welcome_main_content_area">
+                        <div class="contents_inner">
+                            <div class="title_wrap">
+                                <h2 class="title_heading">급상승! 많이 보고 있는 상품</h2>
+                            </div>
+                            <div class="fluid_swiper_wrap">
+                                <div class="swiper-container">
+                                    <ul class="swiper-wrapper">
+                                        <li class="swiper-slider" style="width: 273px; margin-right: 36px;" >
+                                        <div class="prod_area">
+                                            <div class="prod_thumb_box">
+                                                <a href="#">
+                                                    <span class="img_box">
+                                                        <img src="img/generation2.jpg" alt="시대예보: 핵개인의 시대">
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="prod_info_box">
+                                                <a href="#">
+                                                    <span class="prod_category">경제/경영</span>
+                                                    <span class="prod_name">시대예보: 핵개인의 시대</span>
+                                                </a>
+                                                <span class="prod_author">송길영·교보문고</span>
+                                            </div>
+                                        </div>
+                                        </li>
+                                        <li class="swiper-slider" style="width: 273px; margin-right: 36px;" >
+                                            <div class="prod_area">
+                                                <div class="prod_thumb_box">
+                                                    <a href="#">
+                                                        <span class="img_box">
+                                                            <img src="img/generation2.jpg" alt="시대예보: 핵개인의 시대">
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="prod_info_box">
+                                                    <a href="#">
+                                                        <span class="prod_category">경제/경영</span>
+                                                        <span class="prod_name">시대예보: 핵개인의 시대</span>
+                                                    </a>
+                                                    <span class="prod_author">송길영·교보문고</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="swiper-slider" style="width: 273px; margin-right: 36px;" >
+                                            <div class="prod_area">
+                                                <div class="prod_thumb_box">
+                                                    <a href="#">
+                                                        <span class="img_box">
+                                                            <img src="img/generation2.jpg" alt="시대예보: 핵개인의 시대">
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="prod_info_box">
+                                                    <a href="#">
+                                                        <span class="prod_category">경제/경영</span>
+                                                        <span class="prod_name">시대예보: 핵개인의 시대</span>
+                                                    </a>
+                                                    <span class="prod_author">송길영·교보문고</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="swiper-slider" style="width: 273px; margin-right: 36px;" >
+                                            <div class="prod_area">
+                                                <div class="prod_thumb_box">
+                                                    <a href="#">
+                                                        <span class="img_box">
+                                                            <img src="img/generation2.jpg" alt="시대예보: 핵개인의 시대">
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="prod_info_box">
+                                                    <a href="#">
+                                                        <span class="prod_category">경제/경영</span>
+                                                        <span class="prod_name">시대예보: 핵개인의 시대</span>
+                                                    </a>
+                                                    <span class="prod_author">송길영·교보문고</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button type="button" class="swiper-button-prev type_white"></button>
+                                            <button type="button" class="swiper-button-next type_white"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="welcome_main_content_area">
+                        <div class="picks_wrap">
+                            <div class="contents_inner">
+                                <div class="picks_wrap_inner">
+                                    <div class="title_wrap">
+                                        <h2 class="title_heading">
+                                            <span class="picks_logo"></span>
+                                        </h2>
+                                    </div>
+                                    <div class="picks_contents">
+                                        <div class="left_area">
+                                            <div class="picks_info_box">
+                                                <p class="picks_desc">발견의 기쁨을 선물합니다.</p>
+                                                <p class="picks_info">취향을 분석해 꼭 맞는 책을 <br>추천해드릴게요!</p>
+                                            </div>
+                                            <div class="btn_wrap">
+                                                <a href="#" class="btn_lg btn_green">로그인 하고 더 많은 추천 받기</a>
+                                            </div>
+                                        </div>
+                                        <div class="right_area">
+                                            <ul class="picks_item_list">
+                                                <li class="picks_item">
+                                                    <div class="picks_item_inner">
+                                                        <div class="img_box"><img src="img/img_welcome_picks_item_01.png" alt=""></div>
+                                                        <div class="picks_info">
+                                                            <p class="picks_info_title">종합추천</p>
+                                                            <p class="picks_info_desc">고객님의 취향을 분석해<br>
+                                                                이틀밤낮 고민하여<br>
+                                                                고른 책을 확인하세요.</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="picks_item">
+                                                    <div class="picks_item_inner">
+                                                        <div class="img_box"><img src="img/img_welcome_picks_item_01.png" alt=""></div>
+                                                        <div class="picks_info">
+                                                            <p class="picks_info_title">종합추천</p>
+                                                            <p class="picks_info_desc">고객님의 취향을 분석해<br>
+                                                                이틀밤낮 고민하여<br>
+                                                                고른 책을 확인하세요.</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="picks_item">
+                                                    <div class="picks_item_inner">
+                                                        <div class="img_box"><img src="img/img_welcome_picks_item_01.png" alt=""></div>
+                                                        <div class="picks_info">
+                                                            <p class="picks_info_title">종합추천</p>
+                                                            <p class="picks_info_desc">고객님의 취향을 분석해<br>
+                                                                이틀밤낮 고민하여<br>
+                                                                고른 책을 확인하세요.</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="picks_item">
+                                                    <div class="picks_item_inner">
+                                                        <div class="img_box"><img src="img/img_welcome_picks_item_01.png" alt=""></div>
+                                                        <div class="picks_info">
+                                                            <p class="picks_info_title">종합추천</p>
+                                                            <p class="picks_info_desc">고객님의 취향을 분석해<br>
+                                                                이틀밤낮 고민하여<br>
+                                                                고른 책을 확인하세요.</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="welcome_main_content_area">
+                        <div class="contents_inner">
+                            <div class="title_wrap">
+                                <h2 class="title_heading">ART & CULTURE</h2>
+                                <div class="right_area">
+                                    <a href="#" class="btn_more_plus_text">
+                                        <span class="text">더보기</span>
+                                        <span class="ico_plus"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="fluid_swiper_wrap">
+                                <div class="swiper-container">
+                                    <ul class="swiper-wrapper">
+                                        <li class="swiper-slider">
+                                            <div class="prod_area">
+                                                <div class="prod_thumb_box" style="height: 273px;">
+                                                    <a href="#" class="prod_link">
+                                                        <span class="img_box">
+                                                            <img src="img/hot1693910048183.jpg" alt="[대구/전시] 미니 개인전 : 기억과 상상">
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="prod_info_box">
+                                                    <a href="#" class="prod_info">
+                                                        <span class="prod_category">아트/컬쳐</span>
+                                                        <span class="prod_name">[대구/전시] 미니 개인전 : 기억과 상상</span>
+                                                    </a>
+                                                    <span class="prod_author">라이크디즈</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="swiper-slider">
+                                            <div class="prod_area">
+                                                <div class="prod_thumb_box" style="height: 273px;">
+                                                    <a href="#" class="prod_link">
+                                                        <span class="img_box">
+                                                            <img src="img/hot1693910048183.jpg" alt="[대구/전시] 미니 개인전 : 기억과 상상">
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="prod_info_box">
+                                                    <a href="#" class="prod_info">
+                                                        <span class="prod_category">아트/컬쳐</span>
+                                                        <span class="prod_name">[대구/전시] 미니 개인전 : 기억과 상상</span>
+                                                    </a>
+                                                    <span class="prod_author">라이크디즈</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="swiper-slider">
+                                            <div class="prod_area">
+                                                <div class="prod_thumb_box" style="height: 273px;">
+                                                    <a href="#" class="prod_link">
+                                                        <span class="img_box">
+                                                            <img src="img/hot1693910048183.jpg" alt="[대구/전시] 미니 개인전 : 기억과 상상">
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="prod_info_box">
+                                                    <a href="#" class="prod_info">
+                                                        <span class="prod_category">아트/컬쳐</span>
+                                                        <span class="prod_name">[대구/전시] 미니 개인전 : 기억과 상상</span>
+                                                    </a>
+                                                    <span class="prod_author">라이크디즈</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="swiper-slider">
+                                            <div class="prod_area">
+                                                <div class="prod_thumb_box" style="height: 273px;">
+                                                    <a href="#" class="prod_link">
+                                                        <span class="img_box">
+                                                            <img src="img/hot1693910048183.jpg" alt="[대구/전시] 미니 개인전 : 기억과 상상">
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="prod_info_box">
+                                                    <a href="#" class="prod_info">
+                                                        <span class="prod_category">아트/컬쳐</span>
+                                                        <span class="prod_name">[대구/전시] 미니 개인전 : 기억과 상상</span>
+                                                    </a>
+                                                    <span class="prod_author">라이크디즈</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button type="button" class="swiper-button-prev type_white"></button>
+                                <button type="button" class="swiper-button-next type_white"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
