@@ -319,7 +319,7 @@ overflow: hidden; border: 1px solid #eaeaea;}
 .welcome_casting > .contents_inner {position: absolute; top:0;left:351px;}
 .casting_contents {position: relative; padding-top: 107px; z-index: 2;}
 .casting_contents > .title_wrap > .title_heading > img {height: 40px; vertical-align: middle;}
-.casting_contents > .title_wrap > .right_area > a > .ico_plus {background-image: url(../img/ico_p);}
+.casting_contents > .title_wrap > .right_area > a > .ico_plus {background-image: url("../img/ico_plus_h10_bold_white@2x.png");}
 
 
 .casting_banner_area {display: flex;}
