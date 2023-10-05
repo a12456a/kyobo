@@ -56,10 +56,12 @@
             <div class="header_inner">
                 <div class="gnb_search_wrap">
                     <div class="logo_box">
-                        <a href="#"></a>
+                        <a href="#" class="logo_link">
+                            <span class="logo_img"></span>
+                        </a>
                     </div>
                     <div class="gnb_search_box">
-                        <div class="form_sel">
+                        <div class="form_sel type_gnb">
                             <select title="검색유형선택" id="gbCode">
                                 <option value="TOT">통합검색</option>
                                 <option value="KBO">교보문고</option>
@@ -85,10 +87,69 @@
                             <a href="#" class="user_menu_link"></a>
                         </li>
                     </ul>
+                    <div class="auto_complete_wrap auto_complete_maintain">
+                        <div class="search_content_wrap inKeyword">
+                            <div class="scroll_wrap"></div>
+                        </div>
+                        <div class="search_content_wrap noKeyword">
+                            <div class="scroll_wrap">
+                                <div class="recommend_keyword_area">
+                                    <div class="title_wrap title_siz_def">
+                                        <p class="title_heading">추천 검색어</p>
+                                    </div>
+                                    <div class="tag_wrap"></div>
+                                </div>
+                                <div class="keyword_contents_area">
+                                    <div class="recent_keyword_box"></div>
+                                    <div class="keyword_prod_box"></div>
+                                    <div class="hot_keyword_box">
+                                        <div class="title_wrap title_siz_def">
+                                            <p class="title_heading">실시간 인기 검색어</p>
+                                            <div class="right_area"></div>
+                                        </div>
+                                        <div class="hot_keyword_list_wrap"></div>
+                                    </div>
+                                </div>
+                                <div class="util_area">
+                                    <a href="#" class="btn_xs btn_light_gray">
+                                        <span class="ico_search"></span>
+                                        <span class="text">상세검색</span>
+                                    </a>
+                                    <a href="#" class="btn_xs btn_line_gray">
+                                        <span class="ico_link"></span>
+                                        <span class="text">도움말</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="btn_layer_close">
+                            <span class="ico_layer_close"></span>
+                        </button>
+                    </div>
                 </div>
                 <nav class="gnb_wrap">
                     <div class="anb_wrap">
                         <button type="button" class="btn_anb"></button>
+                        <div class="anb_area">
+                            <div class="tab_wrap">
+                                <div class="tab_list_wrap">
+                                    <ul class="tabs ui-tabs-nav">
+                                        <li class="tab_item ui-state-active">
+                                            <a href="#" class="tab_link">
+                                                <span class="tab_text">카테고리 전체보기</span>
+                                            </a>
+                                        </li>
+                                        <li class="tab_item">
+                                            <a href="#" class="tab_link">
+                                                <span class="tab_text">서비스 전체보기</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab_content ui-tabs-panel"></div>
+                                <div class="tab_content anb_service ui-tabs-panel"></div>
+                            </div>
+                        </div>
                     </div>
                     <ul class="gnb_list">
                         <li class="gnb_item">

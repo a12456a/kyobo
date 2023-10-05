@@ -20,6 +20,6 @@ img { vertical-align: middle; }
 
 hr { display: block; height: 2px; border:0; margin:0; padding:0; }
 
-input, button, select, textarea {vertical-align: middle;}
+input, button, select, textarea {vertical-align: middle; cursor: pointer;}
 
 button {border:none; background:transparent;}
