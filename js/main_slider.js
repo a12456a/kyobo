@@ -1,8 +1,12 @@
-$(function(){
- var i=0;
- $(".banner_control_inner li").click(function(e){
-    e.preventDefault();
-    $(this).addClass("under_dash").css("color","#000");
-    $(this).siblings().removeClass().css("color","gray");
-});
-});
+var i=0;
+
+function slide(){
+    i++;
+    if(i> $(".main_slide > li:last").index()){
+        i=0;
+    }
+    $(".main_slide > li").eq(i).stop().fadeIn(1000);
+    $(".main_slide > li").eq(i-1).stop().fadeOut(1000);
+}
+
+setInterval(slide, 2000);
