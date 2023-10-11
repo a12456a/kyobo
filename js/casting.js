@@ -1,16 +1,26 @@
-
 $(function(){
     var i=0;
 function backNext (){
     i++;
+    if(i > $(".casting_blur > ul > li:last").index()){
+        i=0;
+    }
     $(".casting_blur > ul > li").eq(i).stop().fadeIn();
     $(".casting_blur > ul > li").eq(i-1).stop().fadeOut();
+    $(".casting_banner_area_wrap").eq(i).stop().fadeIn();
+    $(".casting_banner_area_wrap").eq(i-1).stop().fadeOut();
 }
+
 var a=0;
 function backPrev (){
-    i++;
+    a--;
+    if(a < $(".casting_blur > ul > li:first").index()){
+        a=0;
+    }
     $(".casting_blur > ul > li").eq(a-1).stop().fadeIn();
     $(".casting_blur > ul > li").eq(a).stop().fadeOut();
+    $(".casting_banner_area_wrap").eq(a-1).stop().fadeIn();
+    $(".casting_banner_area_wrap").eq(a).stop().fadeOut();
 }
 
 $(".casting_swiper_control_box > .swiper-button-prev").click(function(){
@@ -42,3 +52,13 @@ $(function (){
         next();
     });
 });
+/**배경글 보이게 하기**/
+$(function(){
+    $(".post_item").hover(function(){
+        $(this).find(".post_info_area").css({"display":"block"});
+        $(this).find(".post_title").css({"padding-top":"110px"});
+    }, function(){
+        $(this).find(".post_info_area").css({"display":"none"});
+    });
+});
+

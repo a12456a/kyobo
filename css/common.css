@@ -33,7 +33,7 @@ background-size: 20px 20px;}
 .more_brand > .btn_brand_more::after {content: ""; position: relative; display: inline-block; width: 6px; height: 4px; background-position: center; background-repeat: no-repeat; background-size: 6px 4px; background-image: url("../img/arw_service_more@2x.png"); vertical-align: top; margin:6px 0 0 4px;}
 
 /**브랜드 더보기**/
-.brand_more_list_box {opacity: 0; display: block; position: absolute; width:330px; border-radius: 16px; border:1px solid #d5d5d5; background-color: #fff; padding:19px; box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.12);} 
+.brand_more_list_box {display: none; position: absolute; width:330px; border-radius: 16px; border:1px solid #d5d5d5; background-color: #fff; padding:19px; box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.12);} 
 .custom_scroll_wrap {padding-right: 18px; width:100%; height: 100%; overflow-x: hidden; overflow-y: auto; display: block; position: relative;}
 .custom_scroll_inner {display: block;}
 .custom_scroll_inner > ul > .brand_more_item {display: inline-block; width: 50%; vertical-align: top; padding:5px 0;}
@@ -113,7 +113,7 @@ background-size: 20px 20px;}
 .gnb_wrap > .anb_wrap {position: relative; margin-right: 10px;}
 .gnb_wrap > .anb_wrap > .btn_anb {display: block; width:44px; height: 44px; background-image: url("../img/btn_anb_open@2x.png"); background-position: center; background-repeat: no-repeat; background-size: 44px 44px; border:none; background-color: transparent;}
 /**카테고리 펼치기**/
-.anb_area {opacity: 0; position: absolute; display: block; left: 0; top:61px; width:1200px; background-color: #fff; z-index: 103; overflow: hidden; border:1px solid #000; border-radius: 16px; height: 705px; min-height: 504px; max-height: calc(100vh - 100px); transition: opacity 0.23;}
+.anb_area {position: absolute; display: none; left: 0; top:61px; width:1200px; background-color: #fff; z-index: 103; overflow: hidden; border:1px solid #000; border-radius: 16px; height: 705px; min-height: 504px; max-height: calc(100vh - 100px); transition: opacity 0.23;}
 .anb_area > .tab_wrap {height: 100%; width:100%; position: relative; display: inline-block; padding:0;} 
 .anb_area > .tab_wrap > .tab_list_wrap {height: 54px; width: 100%; margin-bottom: 0; border-bottom: none; display: flex; align-items: center; width: 100%; background-color: forestgreen; font-size: 0;}
 .anb_area > .tab_wrap > .tab_list_wrap > .tabs {display: flex; background-color: #f2f2f2; flex: 1 1 auto; position: relative; height: 100%; padding:0; margin: 0;}
